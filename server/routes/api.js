@@ -2,7 +2,7 @@ const express = require("express");
 const api = express.Router();
 
 api.get("/users", (req, res) => {
-  const Users = ["Alpha", "Beta", "Gamma", "Delta"];
+  const Users = ["Alpha", "Beta", "Gamma", "Delta", "Epsilon", "Sigma"];
   res.json(Users);
 });
 
